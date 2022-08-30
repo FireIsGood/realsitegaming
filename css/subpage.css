@@ -1,0 +1,43 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  text-shadow: 4px 4px 4px #aaa;
+}
+
+table,
+tr,
+td {
+  background-color: #ddd;
+  border: 1px solid #4f4f4f;
+  border-collapse: collapse;
+  padding: 5px;
+  margin-bottom: 1rem;
+}
+
+.back-button {
+  color: #ddd;
+  background-color: #4f4f4f;
+  padding: 4px;
+  padding-left: 6px;
+  border-radius: 4px;
+}
+
+.contact-form {
+  background-color: #ddd;
+  padding: 1em;
+  border: 1px solid black;
+  max-width: 20rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.contact-form div {
+  margin-bottom: 10px;
+}
+
+textarea {
+  resize: none;
+  width: 98%;
+}

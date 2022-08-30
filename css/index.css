@@ -1,0 +1,99 @@
+.bordertable table,
+.bordertable td,
+.bordertable th,
+.bordertable {
+  outline: 1px;
+  border: 1px solid;
+  padding: 5px;
+  border-collapse: collapse;
+}
+
+.saga {
+  object-fit: cover;
+  background-color: #ccc;
+  position: relative;
+  height: 128px;
+  border: 0.2rem solid #999;
+  border-radius: 5px;
+}
+
+.test > * {
+  background-color: #aaf;
+  border: 3px solid #55f;
+  border-radius: 4px;
+}
+
+.longboye {
+  color: red;
+}
+
+.anim_fire {
+  animation: fire 2s infinite alternate;
+}
+
+@keyframes fire {
+  0% {
+    text-shadow:
+      5px -25px 50px yellow,
+      0 0 20px red,
+      10px -15px 15px orange;
+  }
+
+  33% {
+    text-shadow:
+      0 -20px 30px yellow,
+      15px -5px 20px red,
+      5px 0 20px orange;
+  }
+
+  66% {
+    text-shadow:
+      10px -25px 50px yellow,
+      5px -10px 20px red,
+      0 -5px 20px orange;
+  }
+
+  100% {
+    text-shadow:
+      0 -20px 50px yellow,
+      5px -15px 20px red,
+      10px 0 20px orange;
+  }
+}
+
+.skill-table {
+  color: white;
+  background-color: #555;
+  border-collapse: collapse;
+}
+
+.skill-table th {
+  text-align: left;
+  text-indent: 5px;
+  padding: 5px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.skill-table td {
+  text-align: center;
+  padding: 10px;
+  min-width: 7rem;
+}
+
+.skill-table td:nth-child(3n+3) {
+  border-left: 2px dashed #454545;
+}
+
+.skill-table tr {
+  border-bottom: 2px solid #454545;
+  padding: 10px;
+}
+
+.skill-table tr:last-child {
+  border-bottom: none;
+}
+
+.skill-table img {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

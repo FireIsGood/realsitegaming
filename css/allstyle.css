@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #7882a4;
+  color: #222;
+  max-width: 60rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+hr {
+  border: none;
+  border-top: 4px solid;
+  width: 95%;
+  color: #ccc;
+  overflow: visible;
+}
+
+hr::before {
+  content: '';
+  background-color: #efefef;
+  outline: 1rem solid inherit;
+  display: block;
+  margin: -0.25rem auto 0;
+  height: 4px;
+  width: 4rem;
+}
+
+hr::after {
+  content: '';
+  z-index: 1;
+  display: block;
+  margin: -0.25rem auto 0;
+  border-top: 5px dotted #ccc;
+  height: 4px;
+  width: 3rem;
+}
+
+table {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.title {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  text-align: center;
+  align-items: center;
+}
+
+.title-wide {
+  grid-column: 1 / -1;
+  margin: auto;
+}
+
+.build-right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.centercontent {
+  background-color: #efefef;
+  margin: 1rem 1rem;
+  padding: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.centercontent:last-child {
+  min-height: 60vh;
+}
+
+.tableshadow table {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.footer-links {
+  background-color: #d5d9db;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+.footer-links a {
+  padding: 0 1ch 0 0.5ch;
+}
+
+.footer-links a:not(:last-of-type) {
+  border-right: 1px solid #a2a9b1;
+}
