@@ -1,3 +1,7 @@
+h2:first-of-type {
+  margin-top: .4rem;
+}
+
 .bordertable table,
 .bordertable td,
 .bordertable th,
